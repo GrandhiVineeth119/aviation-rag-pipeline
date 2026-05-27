@@ -1,0 +1,20 @@
+# Environment
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Vector store (regenerated via ingest)
+vector_store/*.faiss
+vector_store/*.pkl
+
+# Large PDFs (add to repo via Git LFS or instruct user to place manually)
+documents/*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

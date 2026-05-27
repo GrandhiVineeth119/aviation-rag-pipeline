@@ -1,0 +1,37 @@
+version: "3.9"
+
+services:
+  # ── Ollama (local LLM — runs qwen2.5 on your machine) ──────────────
+  ollama:
+    image: ollama/ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    # GPU support (uncomment if you have NVIDIA GPU):
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+  # ── RAG API ────────────────────────────────────────────────────────
+  rag:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Point to the ollama container instead of localhost
+      - OLLAMA_BASE_URL=http://ollama:11434
+    volumes:
+      - ./documents:/app/documents
+      - ./vector_store:/app/vector_store
+    depends_on:
+      - ollama
+
+volumes:
+  ollama_data:

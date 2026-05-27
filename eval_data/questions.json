@@ -1,0 +1,697 @@
+[
+  {
+    "id": 1,
+    "category": "factual",
+    "question": "Flight levels are referenced to what datum?",
+    "expected_answer": "Standard pressure datum (1013.25 hPa / 29.92 inHg)",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "altimetry"
+    ]
+  },
+  {
+    "id": 2,
+    "category": "factual",
+    "question": "What is the Dry Adiabatic Lapse Rate (DALR)?",
+    "expected_answer": "Approximately 3\u00b0C per 1000 ft or 10\u00b0C per km",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology"
+    ]
+  },
+  {
+    "id": 3,
+    "category": "factual",
+    "question": "What is dew point?",
+    "expected_answer": "The temperature to which air must be cooled to become saturated",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology"
+    ]
+  },
+  {
+    "id": 4,
+    "category": "factual",
+    "question": "Which document confirms that an aircraft complies with approved design and maintenance standards?",
+    "expected_answer": "Certificate of Airworthiness",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation"
+    ]
+  },
+  {
+    "id": 5,
+    "category": "factual",
+    "question": "What is the primary objective of Air Traffic Services?",
+    "expected_answer": "To prevent collisions between aircraft",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "ATS"
+    ]
+  },
+  {
+    "id": 6,
+    "category": "factual",
+    "question": "What is the ISA temperature lapse rate?",
+    "expected_answer": "6.5\u00b0C per km (or approximately 2\u00b0C per 1000 ft)",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "ISA"
+    ]
+  },
+  {
+    "id": 7,
+    "category": "factual",
+    "question": "An aircraft shall be registered in how many states at a time?",
+    "expected_answer": "Only one State at a time",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation"
+    ]
+  },
+  {
+    "id": 8,
+    "category": "factual",
+    "question": "What is the minimum number of satellites required by GNSS for a 3-D position fix and time correction?",
+    "expected_answer": "4 satellites",
+    "expected_sources": [
+      "11-radio-navigation-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "radio-navigation",
+      "GNSS"
+    ]
+  },
+  {
+    "id": 9,
+    "category": "factual",
+    "question": "What is Reduced Vertical Separation Minimum (RVSM) between FL290 and FL410?",
+    "expected_answer": "1,000 ft",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "RVSM"
+    ]
+  },
+  {
+    "id": 10,
+    "category": "factual",
+    "question": "Which cloud type is most likely to produce continuous precipitation?",
+    "expected_answer": "Nimbostratus",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "clouds"
+    ]
+  },
+  {
+    "id": 11,
+    "category": "factual",
+    "question": "What is the primary advantage of Secondary Surveillance Radar (SSR) over Primary Radar?",
+    "expected_answer": "Individual aircraft identification",
+    "expected_sources": [
+      "11-radio-navigation-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "radio-navigation",
+      "SSR"
+    ]
+  },
+  {
+    "id": 12,
+    "category": "factual",
+    "question": "What is the colour of runway threshold lights?",
+    "expected_answer": "Green",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "lighting"
+    ]
+  },
+  {
+    "id": 13,
+    "category": "factual",
+    "question": "The scale of a Mercator chart increases with what?",
+    "expected_answer": "Increasing latitude",
+    "expected_sources": [
+      "10-General-Navigation-2014__1_.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "navigation",
+      "charts"
+    ]
+  },
+  {
+    "id": 14,
+    "category": "factual",
+    "question": "What document contains permanent and temporary changes of long duration to aeronautical information?",
+    "expected_answer": "AIP (Aeronautical Information Publication)",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "AIP"
+    ]
+  },
+  {
+    "id": 15,
+    "category": "factual",
+    "question": "What is the primary objective of the Chicago Convention?",
+    "expected_answer": "Promote safe, orderly, and economical development of international civil aviation",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "ICAO"
+    ]
+  },
+  {
+    "id": 16,
+    "category": "factual",
+    "question": "What is the primary purpose of aircraft accident investigation?",
+    "expected_answer": "To prevent future accidents",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation"
+    ]
+  },
+  {
+    "id": 17,
+    "category": "factual",
+    "question": "What limits the range of a VHF navigation aid?",
+    "expected_answer": "Line-of-sight distance",
+    "expected_sources": [
+      "11-radio-navigation-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "radio-navigation",
+      "VHF"
+    ]
+  },
+  {
+    "id": 18,
+    "category": "factual",
+    "question": "If both pitot and static sources are blocked, what happens to the ASI?",
+    "expected_answer": "It will freeze at the last indication",
+    "expected_sources": [
+      "Instruments.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "instruments",
+      "pitot-static"
+    ]
+  },
+  {
+    "id": 19,
+    "category": "factual",
+    "question": "Which process transfers heat vertically in the atmosphere?",
+    "expected_answer": "Convection",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology"
+    ]
+  },
+  {
+    "id": 20,
+    "category": "factual",
+    "question": "What is the most hazardous type of icing for aircraft performance?",
+    "expected_answer": "Clear ice (glaze ice)",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "icing"
+    ]
+  },
+  {
+    "id": 21,
+    "category": "applied",
+    "question": "During approach, when must a missed approach be initiated?",
+    "expected_answer": "When required visual reference is not established at DA/MDA",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "procedures"
+    ]
+  },
+  {
+    "id": 22,
+    "category": "applied",
+    "question": "When two aircraft are converging at the same altitude, which one shall give way?",
+    "expected_answer": "The aircraft that has the other on its right shall give way",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "right-of-way"
+    ]
+  },
+  {
+    "id": 23,
+    "category": "applied",
+    "question": "A sea breeze occurs primarily due to what phenomenon?",
+    "expected_answer": "Differential heating between land and sea",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "local-winds"
+    ]
+  },
+  {
+    "id": 24,
+    "category": "reasoning",
+    "question": "If an aircraft flies at constant Mach number while descending through an inversion layer, what happens to CAS?",
+    "expected_answer": "CAS will increase because temperature increases in an inversion, increasing the speed of sound",
+    "expected_sources": [
+      "Instruments.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "instruments",
+      "mach-number"
+    ]
+  },
+  {
+    "id": 25,
+    "category": "applied",
+    "question": "Which airspace class permits both IFR and VFR flights with ATC separation provided only to IFR?",
+    "expected_answer": "Class E",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "airspace"
+    ]
+  },
+  {
+    "id": 26,
+    "category": "applied",
+    "question": "Wind shear is most hazardous during which phase of flight?",
+    "expected_answer": "Take-off and landing",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "wind-shear"
+    ]
+  },
+  {
+    "id": 27,
+    "category": "applied",
+    "question": "Which pressure system is generally associated with subsidence and fair weather?",
+    "expected_answer": "Anticyclone (high pressure)",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "pressure-systems"
+    ]
+  },
+  {
+    "id": 28,
+    "category": "applied",
+    "question": "A warm front is typically characterised by what type of weather?",
+    "expected_answer": "Gentle slope and widespread stratiform cloud with continuous precipitation",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "fronts"
+    ]
+  },
+  {
+    "id": 29,
+    "category": "applied",
+    "question": "What visibility restriction is caused by hygroscopic particles?",
+    "expected_answer": "Haze",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "visibility"
+    ]
+  },
+  {
+    "id": 30,
+    "category": "applied",
+    "question": "Clear Air Turbulence (CAT) is most commonly associated with what?",
+    "expected_answer": "Jet streams",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "turbulence"
+    ]
+  },
+  {
+    "id": 31,
+    "category": "applied",
+    "question": "The Point of No Return (PNR) is most sensitive to changes in what factor?",
+    "expected_answer": "Wind component",
+    "expected_sources": [
+      "7-Flight-Planning-and-Monitoring-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "flight-planning",
+      "PNR"
+    ]
+  },
+  {
+    "id": 32,
+    "category": "applied",
+    "question": "In an ICAO flight plan, how is planned cruising speed expressed?",
+    "expected_answer": "Expected true airspeed (TAS)",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf",
+      "7-Flight-Planning-and-Monitoring-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "flight-planning"
+    ]
+  },
+  {
+    "id": 33,
+    "category": "applied",
+    "question": "What are the three conditions required for thunderstorm formation?",
+    "expected_answer": "Moisture, instability, and a lifting mechanism (NOT temperature inversion)",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "thunderstorms"
+    ]
+  },
+  {
+    "id": 34,
+    "category": "applied",
+    "question": "Relative humidity increases when what happens?",
+    "expected_answer": "Temperature decreases with constant moisture content",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "humidity"
+    ]
+  },
+  {
+    "id": 35,
+    "category": "reasoning",
+    "question": "Why does temperature normally decrease with height in the troposphere?",
+    "expected_answer": "Due to expansion and cooling of rising air (adiabatic cooling)",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "lapse-rate"
+    ]
+  },
+  {
+    "id": 36,
+    "category": "applied",
+    "question": "What privileges does a Commercial Pilot Licence holder have?",
+    "expected_answer": "May fly for hire or reward within licence privileges",
+    "expected_sources": [
+      "Air-Regulation-RK-BALI.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "air-regulation",
+      "licensing"
+    ]
+  },
+  {
+    "id": 37,
+    "category": "applied",
+    "question": "What causes the difference between geodetic latitude and geocentric latitude?",
+    "expected_answer": "Earth being an oblate spheroid",
+    "expected_sources": [
+      "10-General-Navigation-2014__1_.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "navigation",
+      "geodesy"
+    ]
+  },
+  {
+    "id": 38,
+    "category": "applied",
+    "question": "What happens to the scale on a Lambert conformal conic chart at the standard parallels?",
+    "expected_answer": "The scale is correct (exact) at the standard parallels",
+    "expected_sources": [
+      "10-General-Navigation-2014__1_.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "navigation",
+      "charts"
+    ]
+  },
+  {
+    "id": 39,
+    "category": "reasoning",
+    "question": "How does a VOR navigation aid work?",
+    "expected_answer": "It transmits two signals \u2014 a reference and a variable phase signal \u2014 and the aircraft receiver measures the phase difference to determine the magnetic bearing from the station",
+    "expected_sources": [
+      "11-radio-navigation-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "radio-navigation",
+      "VOR"
+    ]
+  },
+  {
+    "id": 40,
+    "category": "reasoning",
+    "question": "What factors affect aircraft take-off performance?",
+    "expected_answer": "Aircraft weight, air density (temperature, pressure, humidity), wind component, runway slope, runway surface condition",
+    "expected_sources": [
+      "6-mass-and-balance-and-performance-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "performance",
+      "take-off"
+    ]
+  },
+  {
+    "id": 41,
+    "category": "reasoning",
+    "question": "An aircraft at FL350 encounters a temperature significantly warmer than ISA. Explain the effect on its true altitude relative to indicated altitude.",
+    "expected_answer": "When temperature is warmer than ISA, air density is lower, pressure levels are higher than standard. True altitude will be HIGHER than indicated altitude. The altimeter under-reads in warm air.",
+    "expected_sources": [
+      "Instruments.pdf",
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "instruments",
+      "meteorology",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 42,
+    "category": "reasoning",
+    "question": "Explain why clear ice is more hazardous than rime ice for aircraft performance.",
+    "expected_answer": "Clear ice forms a smooth, heavy, transparent layer that closely conforms to the airfoil shape, is difficult to detect and remove, adds significant weight, and severely disrupts laminar airflow. Rime ice is rough and lighter.",
+    "expected_sources": [
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "icing",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 43,
+    "category": "reasoning",
+    "question": "If you are flying from a high pressure area into a low pressure area without resetting the altimeter, will your true altitude be higher or lower than indicated? Explain why.",
+    "expected_answer": "True altitude will be LOWER than indicated. Flying from high to low pressure without resetting QNH causes the altimeter to over-read. The saying is 'High to Low, look out below.'",
+    "expected_sources": [
+      "Instruments.pdf",
+      "Meteorology_full_book.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "instruments",
+      "altimetry",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 44,
+    "category": "reasoning",
+    "question": "Why is wind shear particularly dangerous during approach and landing compared to cruise flight?",
+    "expected_answer": "During approach/landing the aircraft is at low altitude, low speed, and in landing configuration with limited excess energy. A sudden change in wind speed/direction can cause rapid loss of airspeed and lift with insufficient altitude to recover.",
+    "expected_sources": [
+      "Meteorology_full_book.pdf",
+      "6-mass-and-balance-and-performance-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "meteorology",
+      "performance",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 45,
+    "category": "reasoning",
+    "question": "An aircraft centre of gravity moves aft beyond the aft limit. What are the consequences for stability and control?",
+    "expected_answer": "Aft CG reduces longitudinal static stability, makes the aircraft more difficult to control in pitch, may cause the aircraft to become uncontrollable especially in stall recovery, and reduces the stall speed but dangerously so.",
+    "expected_sources": [
+      "6-mass-and-balance-and-performance-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "mass-balance",
+      "stability",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 46,
+    "category": "reasoning",
+    "question": "Explain the relationship between the Point of No Return (PNR) and the Equal Time Point (ETP) and when each is critical in flight planning.",
+    "expected_answer": "PNR is the last point from which the aircraft can return to departure with required fuel reserves. ETP is where flight time to two alternates is equal. PNR is critical for fuel planning; ETP is critical for emergency diversion decisions.",
+    "expected_sources": [
+      "7-Flight-Planning-and-Monitoring-2014.pdf"
+    ],
+    "should_refuse": false,
+    "tags": [
+      "flight-planning",
+      "reasoning"
+    ]
+  },
+  {
+    "id": 47,
+    "category": "out_of_scope",
+    "question": "Who painted the famous artwork Mona Lisa?",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_refuse": true,
+    "tags": [
+      "out-of-scope",
+      "art"
+    ]
+  },
+  {
+    "id": 48,
+    "category": "out_of_scope",
+    "question": "Which is the largest planet in our solar system?",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_refuse": true,
+    "tags": [
+      "out-of-scope",
+      "astronomy"
+    ]
+  },
+  {
+    "id": 49,
+    "category": "out_of_scope",
+    "question": "What is the capital city of Australia?",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_refuse": true,
+    "tags": [
+      "out-of-scope",
+      "geography"
+    ]
+  },
+  {
+    "id": 50,
+    "category": "out_of_scope",
+    "question": "Who was the first human to walk on the Moon?",
+    "expected_answer": null,
+    "expected_sources": [],
+    "should_refuse": true,
+    "tags": [
+      "out-of-scope",
+      "history"
+    ]
+  }
+]

@@ -1,0 +1,10 @@
+# Place aviation PDF files here before running `python ingest.py`
+#
+# Required documents:
+# - Air-Regulation-RK-BALI.pdf
+# - Meteorology_full_book.pdf
+# - Instruments.pdf
+# - 11-radio-navigation-2014.pdf
+# - 10-General-Navigation-2014__1_.pdf
+# - 7-Flight-Planning-and-Monitoring-2014.pdf
+# - 6-mass-and-balance-and-performance-2014.pdf
